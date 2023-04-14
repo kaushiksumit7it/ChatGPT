@@ -28,12 +28,13 @@
                 android:src="@drawable/chat_gpt" />
 
             <TextView
+                android:background="#0000ff"
                 android:id="@+id/left_chat_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_toEndOf="@id/chatGPT_icon"
                 android:padding="5dp"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/white" />
 
         </RelativeLayout>
 
@@ -55,12 +56,13 @@
             android:orientation="vertical">
 
             <TextView
+                android:background="#00ff00"
                 android:id="@+id/right_chat_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="5dp"
                 android:padding="5dp"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/white" />
 
             <ImageView
                 android:id="@+id/person"
